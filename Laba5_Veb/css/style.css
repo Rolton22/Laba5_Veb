@@ -1,0 +1,856 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, ol, ul, li, a, p {
+    font-family: "Tahoma";
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+.wrapper {
+    width: 60%;
+    margin: auto;
+}
+.page-header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgb(6, 116, 110);
+    z-index: 50;
+}
+.page-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.page-header .wrapper .element {
+    display: flex;
+}
+.page-header .wrapper .element .icon > a {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.page-header .wrapper .element .icon > a > img {
+    width: 15px;
+    padding-top: 2px;
+}
+.page-header .wrapper .element .icon > a > p {
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.page-header .wrapper .element2 {
+    display: flex;
+}
+.page-header .wrapper .element2 .icon > a {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.page-header .wrapper .element2 .icon > a > img {
+    width: 15px;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+.page-header .wrapper .element2 .mobile > a > p {
+    font-size: 22px;
+    display: none;
+}
+.page-content {
+    padding-top: 37px;
+}
+.page-content .block_1 .wrapper .logo {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.page-content .block_1 .wrapper .logo > img {
+    width: 60px;
+}
+.page-content .block_1 .wrapper .logo > h1 {
+    font-size: 44px;
+    padding: 8px;
+}
+.page-content .block_1 .wrapper {
+    justify-content: space-between;
+    display: flex;
+}
+.page-content .block_1 .wrapper .text {
+    display: flex;
+}
+.page-content .block_1 .wrapper .text .element {
+    padding-top: 72.5px;
+}
+.page-content .block_1 .wrapper .text .mobile {
+    padding-top: 72.5px;
+    display: none;
+}
+.page-content .block_1 .wrapper .text .mobile > p > a {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 24px;
+}
+.page-content .block_1 .wrapper .text .element > p > a {
+    font-size: 24px;
+    padding-left: 24px;
+}
+.block_2 .bacground {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.block_2 .bacground > img {
+    width: 100%;
+    height: 500px;
+}
+
+.block_2 .bacground .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.block_2 .bacground .overlay .text {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    text-align: center;
+    
+}
+.block_2 .bacground .overlay .text > h1 {
+    font-size: 60px;
+    color: #fff;
+    padding: 10px;
+}
+.block_2 .bacground .overlay .text > h2 {
+    font-size: 35px;
+    color: #fff;
+    padding: 10px;
+}
+.block_2 .bacground .overlay .text .button {
+    display: flex;
+}
+.block_2 .bacground .overlay .text .button {
+    justify-content: center;
+}
+.block_2 .bacground .overlay .text .button .button_1 {
+    padding: 20px;
+    width: 120px;
+    border-radius: 3px;
+    margin: 10px;
+    margin-top: 50px;
+    background-color: rgb(22, 160, 134);
+}
+.block_2 .bacground .overlay .text .button .button_1 > a {
+    padding: 10px;
+    color: #fff;
+}
+.block_2 .bacground .overlay .text .button .button_2 {
+    padding: 20px;
+    width: 120px;
+    border-radius: 3px;
+    margin: 10px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+.block_2 .bacground .overlay .text .button .button_2 > a {
+    padding: 10px;
+    color: rgb(99, 99, 99);
+}
+.block_2 .bacground .over_bac {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.4);
+    transition: 0.5s;
+}
+.block_2 .bacground .overlay:hover .over_bac {
+    opacity: 0;
+}
+.block_3 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+ .centr_text > h1 {
+    text-align: center;
+    font-size: 48px;
+    padding: 10px;
+}
+ .__ {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-top: #000 solid 3px;
+}
+.block_4 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.block_4 .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.block_4 .wrapper .content {
+    width: 30%;
+}
+.block_4 .wrapper .content > img {
+    width: 100%;
+    height: 220px;
+}
+.block_4 .wrapper .content .text {
+    background-color: rgb(22, 160, 134);
+    width: 100%;
+    margin-top: -4px;
+}
+.block_4 .wrapper .content .text > h1 {
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.block_4 .wrapper .content .text > p {
+    padding: 0px  20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #fff;
+}
+.block_5 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(245, 245, 245);
+}
+.block_5 .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.block_5 .wrapper .content {
+    margin-top: 50px;
+    width: 23%;
+    border: #000 solid;
+    text-align: center;
+    position: relative;
+}
+.block_5 .wrapper .content > img {
+    width: 40%;
+    padding-top: 40px;
+}
+.block_5 .wrapper .content > p {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+.block_5 .wrapper .content .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(22, 160, 134);
+    opacity: 0;
+}
+.block_5 .wrapper .content .overlay:hover {
+    opacity: 1;
+}
+.block_5 .wrapper .content .overlay > img {
+    width: 20%;
+    padding-top: 30px;
+}
+.block_5 .wrapper .content .overlay > h1 {
+    padding-top: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+.block_5 .wrapper .content .overlay > h2 {
+    padding: 10px;
+    color: rgb(51, 51, 51);
+}
+.block_5 .wrapper .content .overlay > p {
+    padding-top: 20px;
+}
+.block_5 .wrapper .content .overlay > p > a {
+    padding: 10px;
+    background-color: #fff;
+    color: rgb(51, 51, 51);
+}
+.block_6 {
+    width: 100%;
+    height: 330px;
+    background-color: rgb(5, 39, 54);
+}
+.block_6 .wrapper .element {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.block_6 .wrapper .element > li .text > h1 {
+    color: #fff;
+    font-size: 40px;
+}
+.block_6 .wrapper .element > li {
+    width: 32%;
+}
+.block_6 .wrapper .element > li .text .polosa {
+    padding-top: 14px;  
+    width: 80px;
+    border-bottom: #fff solid 4px;
+}
+.block_6 .wrapper .element > li .text > p {
+    color: #fff;
+    font-size: 14px;
+    padding-top: 14px;
+}
+.block_6 .wrapper .element > li > input {
+    margin-top: 10px;
+    width: 93%;
+    padding: 10px;
+}
+.block_6 .wrapper .element > li > select {
+    width: 100%;
+    margin-top: 24px;
+    padding: 10px;
+    color: rgb(102, 102, 102);
+}
+.block_6 .wrapper .element > li .button {
+    margin-top: 24px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 3px;
+    background-color: rgb(22, 160, 134);
+}
+.block_6 .wrapper .element > li .button > p {
+    text-align: center;   
+}
+.block_6 .wrapper .element > li .button > p > a {
+    color: #fff;
+}
+
+
+.block_6 .wrapper .mobile {
+    padding-top: 50px;
+    display: none;
+}
+.block_6 .wrapper .mobile > li .text{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.block_6 .wrapper .mobile > li .text > h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.block_6 .wrapper .mobile > li .text .polosa {
+    padding-top: 14px;  
+    width: 80px;
+    border-bottom: #fff solid 4px;
+}
+.block_6 .wrapper .mobile > li .text > p {
+    color: #fff;
+    font-size: 14px;
+    padding-top: 14px;
+}
+.block_6 .wrapper .mobile > li > input {
+    margin-top: 20px;
+    width: 84%;
+    margin-left: 5%;
+    padding: 10px;
+}
+.block_6 .wrapper .mobile > li > select {
+    width: 91%;
+    margin-top: 24px;
+    margin-left: 4.8%;
+    padding: 10px;
+    color: rgb(102, 102, 102);
+}
+.block_6 .wrapper .mobile > li .button {
+    justify-content: right;
+    margin-top: 24px;
+    padding: 10px;
+    width: 20%;
+    margin-left: 70%;
+    border-radius: 3px;
+    background-color: rgb(22, 160, 134);
+}
+.block_6 .wrapper .mobile > li .button > p {
+    text-align: center;   
+}
+.block_6 .wrapper .mobile > li .button > p > a {
+    color: #fff;
+}
+
+
+
+.block_7 {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background-color: rgb(245, 245, 245);
+}
+.block_7 .wrapper .content {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.block_7 .wrapper .content .element {
+    width: 32%;
+    position: relative;
+}
+.block_7 .wrapper .content .element > img {
+    width: 100%;
+    height: 240px;
+}
+.block_7 .wrapper .content .element .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 4px;
+    background-color: rgb(5, 39, 54,0.9);
+    opacity: 1;
+}
+.block_7 .wrapper .content .element .overlay > p {
+    font-size: 18px;
+    padding: 14px;
+    color: #fff;
+}
+.block_7 .wrapper .content .element .overlay_ful {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 240px;
+    background-color: rgb(5, 39, 54,0.9);
+    opacity: 0;
+}
+.block_7 .wrapper .content .element .overlay_ful > h1 {
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+.block_7 .wrapper .content .element .overlay_ful > h2 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+}
+.block_7 .wrapper .content .element .overlay_ful > p {
+    margin: 20px;
+    padding: 10px;
+    width: 24%;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.block_7 .wrapper .content .element .overlay_ful > p > a {
+    color: rgb(102, 102, 102);
+}
+.block_7 .wrapper .content .element .overlay_ful:hover {
+    opacity: 1;
+}
+.block_7 .wrapper .content .element:hover .overlay {
+    opacity: 0;
+}
+.block_8 {
+    width: 100%;
+    height: 230px;
+    position: relative;
+}
+.block_8 > img {
+    width: 100%;
+    height: 100%;
+}
+.block_8 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.6);
+}
+.block_8 .overlay .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.block_8 .overlay .wrapper .text {
+    width: 32%;
+}
+.block_8 .overlay .wrapper .text > h1 {
+    padding-top: 90px;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+.block_8 .overlay .wrapper .text > p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.block_9 {
+    padding: 150px 0;
+    background-color: rgb(245, 245, 245);
+}
+.block_9 .wrapper {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.block_9 .wrapper .content {
+    width: 32%;
+}
+.block_9 .wrapper .content > img {
+    width: 100%;
+    height: 200px;
+}
+.block_9 .wrapper .content .text {
+    background-color: #fff;
+    margin-top: -4px;
+    padding: 20px;
+}
+.block_9 .wrapper .content .text > h1 {
+    font-size: 18px;
+    padding: 10px 0;
+}
+.block_9 .wrapper .content .text .text_img {
+    display: flex;
+    padding: 10px 0;
+}
+.block_9 .wrapper .content .text .text_img > img {
+    width: 12px;
+    padding-right: 5px;
+}
+.block_9 .wrapper .content .text .text_img > p {
+    padding-right: 20px;
+    margin-right: 20px;
+    color: rgb(102, 102, 102);
+    border-right: rgb(102, 102, 102) solid 1px;
+}
+.block_9 .wrapper .content .text .text_img > h2 > a{
+    color: rgb(75, 143, 128);
+}
+.block_9 .wrapper .content .text > h3 {
+    color: rgb(102, 102, 102);
+    padding: 10px 0;
+    line-height: 20px;
+}
+.block_9 .wrapper .content .text .button > p {
+    margin: 20px 0;
+}
+.block_9 .wrapper .content .text .button > p > a {
+    border-radius: 3px;
+    padding: 5px 30px;
+    background-color: rgb(22, 160, 134);
+    color: #fff;
+}
+.block_10 {
+    padding: 100px 0;
+}
+.block_10 .wrapper .logo {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.block_10 .logo > img {
+    width: 20%;
+}
+.block_11 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.block_11 > img {
+    width: 100%;
+    height: 100%;
+}
+.block_11 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.6);
+}
+.block_11 .overlay .wrapper {
+    padding: 50px 0;
+}
+.block_11 .overlay .wrapper .centr_text > h1 {
+    color: #fff;
+}
+.block_11 .overlay .wrapper .__ {
+    border-top: #fff solid 3px;
+    padding-bottom: 30px;
+}
+.block_11 .overlay .wrapper .content {
+    display: flex;
+    justify-content: space-between;
+}
+.block_11 .overlay .wrapper .content .coment {
+    width: 48%;
+    height: 240px;
+    border: rgb(217, 222, 225) solid 1px;
+}
+.block_11 .overlay .wrapper .content .coment .element {
+    padding: 60px 0;
+    display: flex;
+}
+.block_11 .overlay .wrapper .content .coment .element > img {
+    width: 120px;
+    height: 120px;
+}
+.block_11 .overlay .wrapper .content .coment .element .text {
+    padding: 0 20px;
+}
+.block_11 .overlay .wrapper .content .coment .element .text > h1 {
+    color: #fff;
+    font-size: 16px;
+}
+.block_11 .overlay .wrapper .content .coment .element .text > h2 {
+    color: rgb(217, 222, 225);
+    font-size: 12px;
+    padding: 10px 0;
+}
+.block_11 .overlay .wrapper .content .coment .element .text > p {
+    color: rgb(217, 222, 225);
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+.block_11 .overlay .wrapper .content .coment .element .text2 {
+    padding: 0 20px;
+    text-align: right;
+}
+.block_11 .overlay .wrapper .content .coment .element .text2 > h1 {
+    color: #fff;
+    font-size: 16px;
+}
+.block_11 .overlay .wrapper .content .coment .element .text2 > h2 {
+    color: rgb(217, 222, 225);
+    font-size: 12px;
+    padding: 10px 0;
+}
+.block_11 .overlay .wrapper .content .coment .element .text2 > p {
+    color: rgb(217, 222, 225);
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.block_11 .overlay .wrapper .content .coment .mobile {
+    padding: 20px 0;
+    display: none;
+}
+.block_11 .overlay .wrapper .content .coment .mobile > img {
+    margin-left: 36.1px;
+    width: 120px;
+    height: 120px;
+}
+.block_11 .overlay .wrapper .content .coment .mobile .text {
+    text-align: center;
+    padding: 0 20px;
+}
+.block_11 .overlay .wrapper .content .coment .mobile .text > h1 {
+    color: #fff;
+    font-size: 16px;
+}
+.block_11 .overlay .wrapper .content .coment .mobile .text > h2 {
+    color: rgb(217, 222, 225);
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.block_11 .overlay .wrapper .polosy {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+.block_11 .overlay .wrapper .polosy .polosa_1 {
+    width: 4%;
+    border: rgb(22, 160, 134) solid 3px;
+}
+.block_11 .overlay .wrapper .polosy .polosa_2 {
+    width: 4%;
+    border: #fff solid 3px;
+    margin: 0 15px;
+}
+.block_11 .overlay .wrapper .polosy .polosa_3 {
+    width: 4%;
+    border: #fff solid 3px;
+}
+
+.block_12 {
+    padding: 100px 0;
+}
+.block_12 .__ {
+    padding-bottom: 50px;
+}
+.block_12 > p {
+    text-align: center;
+    color: rgb(102, 102, 102);
+}
+.block_12 .email {
+    padding: 20px 0;
+    width: 30%;
+    margin-right: 35%;
+    margin-left: 35%;
+    display: flex;
+}
+.block_12 .email > input {
+    width: 75%;
+    height: 40px;
+    border: 1px solid rgb(22, 160, 134);
+    font-size: 16px;
+    padding-left: 20px;
+}
+.block_12 .email .button {
+    width: 25%;
+    height: 44px;
+}
+.block_12 .email .button > p > a {
+    color: #fff;
+}
+.block_12 .email .button > p {
+    text-align: center;
+    padding: 13.5px 0;
+    background-color: rgb(22, 160, 134);
+
+}
+.block_13 {
+    position: relative;
+}
+.block_13 > img {
+    width: 100%;
+    height: 400px;
+}
+.block_13 .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(13, 34, 66, 0.7);
+}
+.block_13 .overlay .wrapper .content {
+    display: flex;
+    justify-content: space-between;
+}
+.block_13 .overlay .wrapper .content > li {
+    width: 23%;
+    padding-top: 50px;
+}
+.block_13 .overlay .wrapper .content .element1 .header{
+    display: flex;
+    height: 50px;
+    padding-bottom: 20px;
+}
+.block_13 .overlay .wrapper .content .element1 .header > h1 {
+    color: #fff;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.block_13 .overlay .wrapper .content .element1 .content {
+    text-align: justify;
+    line-height: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+.block_13 .overlay .wrapper .content .element1 .block_img .element {
+    display: flex;
+}
+.block_13 .overlay .wrapper .content .element1 .block_img .element .icon > a {
+    display: flex;
+    padding-top: 20px;
+}
+.block_13 .overlay .wrapper .content .element1 .block_img .element .icon > a > img {
+    width: 20px;
+    padding-right: 10px;
+}
+.block_13 .overlay .wrapper .content .element2 > h1 {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.block_13 .overlay .wrapper .content .element3 > h1 {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.block_13 .overlay .wrapper .content .element4 > h1 {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.block_13 .overlay .wrapper .content .element2 .contact > li {
+    display: flex;
+}
+.block_13 .overlay .wrapper .content .element2 .contact > li > a {
+    display: flex;
+    padding-bottom: 10px;
+}
+.block_13 .overlay .wrapper .content .element2 .contact > li > a > img {
+    width: 15px;
+    padding-top: 2px;
+}
+.block_13 .overlay .wrapper .content .element2 .contact > li > a > p {
+    color: #fff;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.block_13 .overlay .wrapper .content .element2 .contact > li > p {
+    color: #fff;
+    padding-left: 22px;
+}
+.block_13 .overlay .wrapper .content .element3 .list {
+    display: flex;
+    justify-content: space-between;
+}
+.block_13 .overlay .wrapper .content .element3 .list > ul {
+    width: 40%;
+    
+}
+.block_13 .overlay .wrapper .content .element3 .list > ul > li {
+    color: #fff;
+    padding-bottom: 10px;
+    list-style: disc;
+}
+.block_13 .overlay .wrapper .content .element3 .list > ul > li > a {
+    color: #fff;
+}
+.block_13 .overlay .wrapper .content .element4 .box1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.block_13 .overlay .wrapper .content .element4 .box2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.block_13 .overlay_ful {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 55px;
+    background-color: rgb(5, 35, 59);
+}
+.block_13 .overlay_ful > p {
+    color: rgb(217, 222, 225);
+    font-size: 18px;
+    padding: 16.5px;
+    text-align: center;
+}
